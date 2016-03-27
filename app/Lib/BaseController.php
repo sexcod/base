@@ -6,11 +6,11 @@
  * Time: 18:46
  */
 
-namespace Progs\Lib;
+namespace SexCode\Lib;
 
 use Twig_Loader_Filesystem;
 use Twig_Environment;
-use Progs\Lib\Progs_Extension;
+use SexCode\Lib\Progs_Extension;
 
 class BaseController
 {

@@ -6,7 +6,7 @@
  * Time: 14:48
  */
 
-namespace Progs\Lib;
+namespace SexCode\Lib;
 
 use Twig_Extension;
 use Twig_SimpleFunction;
@@ -22,7 +22,7 @@ class Progs_Extension extends Twig_Extension
 
     public function assetsFunction($link)
     {
-        $assets = 'http://'.$_SERVER['SERVER_NAME'].'/'.$link;
+        $assets = 'http://'.$_SERVER['HTTP_HOST'].'/'.$link;
 
         return $assets;
     }

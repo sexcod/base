@@ -17,10 +17,10 @@
 
     "autoload": {
         "psr-4": {
-            "Progs\\Config\\": "app/Config/",
+            "SexCode\\Config\\": "app/Config/",
             "Progs\\Controller\\": "app/Controllers/",
             "Progs\\Model\\": "app/Models/",
-            "Progs\\Lib\\": "app/Lib/"
+            "SexCode\\Lib\\": "app/Lib/"
         }
     },
 
@@ -31,18 +31,6 @@
             "doctrine/common": "2.4.*",
             "doctrine/dbal": "2.4.*",
             "doctrine/orm": "2.4.*"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "npm install",
-            "gulp"
-        ],
-        "post-update-cmd": [
-            "gulp"
-        ],
-        "post-create-project-cmd": [
-            "npm install",
-            "gulp"
-        ]
     }
+
 }

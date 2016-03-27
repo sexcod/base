@@ -6,7 +6,7 @@
  * Time: 14:21
  */
 
-namespace Progs\Lib;
+namespace SexCode\Lib;
 
 
 use Bramus\Router\Router as BaseRouter;

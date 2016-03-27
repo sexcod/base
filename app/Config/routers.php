@@ -14,6 +14,6 @@ $router->get('/', function(){
 
 $router->set404(function() {
     header('HTTP/1.1 404 Not Found');
-   return (new \Progs\Lib\BaseController())->error404();
+   return (new \SexCode\Lib\BaseController())->error404();
 });
 ?>

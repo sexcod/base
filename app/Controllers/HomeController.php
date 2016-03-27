@@ -8,7 +8,7 @@
 
 namespace Progs\Controller;
 
-use Progs\Lib\BaseController;
+use SexCode\Lib\BaseController;
 
 class HomeController extends BaseController
 {

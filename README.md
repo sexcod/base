@@ -1,2 +1,30 @@
-# progs_base
-Base feita com composer para desenvolvimento web
+# CodeSex Framework
+
+CodeSex is a Framework , light for developer 
+
+## Features
+
+- Ruter System simple using POST | GET | PUT | DELETE
+- Using Comand line for interaction wich database
+- Using Doctrine ORM form Entity Manager
+- Using Twig for template engine
+- Using Gulp for make min for css and js
+
+
+
+
+## Prerequisites/Requirements
+
+- PHP 5.4 or greater
+
+
+## Installation
+
+Installation is possible using Git
+
+git clone https://github.com/ale-php/SexCode-framework.git
+
+
+## License
+
+`bramus/router` is released under the MIT public license. See the enclosed `LICENSE` for details.
